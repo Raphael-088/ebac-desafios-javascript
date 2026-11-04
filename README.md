@@ -26,7 +26,7 @@ Node.js
 Visual Studio Code
 Git
 GitHub
-▶️ Como executar
+▶▶️ Como executar
 Clone o repositório:
 
 git clone https://github.com/Raphael-088/ebac-desafios-javascript.git
@@ -41,8 +41,27 @@ Desafio 2
 node desafio2-array.js
 Desafio 3
 node desafio3-multiplos.js
+🧪 Testes Unitários
+O projeto utiliza o framework Jest para execução dos testes unitários.
+
+Instalar dependências
+npm install
+Executar os testes
+npm test
+Arquivos de teste
+desafio1-mdc.test.js
+desafio2-array.test.js
+desafio3-multiplos.test.js
+Resultado esperado
+PASS desafio1-mdc.test.js
+PASS desafio2-array.test.js
+PASS desafio3-multiplos.test.js
+
+Test Suites: 3 passed, 3 total
+Tests: 3 passed, 3 total
 🌿 Branch utilizada
-main
+exercicios/modulo-2
+
 👨‍💻 Autor
 Raphael Araújo
 
