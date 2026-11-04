@@ -11,7 +11,6 @@ function encontrarIndices(numeros) {
         if (numeros[i] < numeros[indiceMenor]) {
             indiceMenor = i;
         }
-
     }
 
     return {
@@ -20,9 +19,4 @@ function encontrarIndices(numeros) {
     };
 }
 
-const numeros = [15, 8, 32, 4, 27];
-
-const resultado = encontrarIndices(numeros);
-
-console.log("Índice do maior valor:", resultado.indiceMaior);
-console.log("Índice do menor valor:", resultado.indiceMenor);
+module.exports = encontrarIndices;

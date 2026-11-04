@@ -8,6 +8,4 @@ function calcularMDC(numero1, numero2) {
     return numero1;
 }
 
-const resultado = calcularMDC(48, 18);
-
-console.log(`O MDC é: ${resultado}`);
+module.exports = calcularMDC;

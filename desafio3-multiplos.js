@@ -6,12 +6,9 @@ function somarMultiplos() {
         if (numero % 5 === 0 || numero % 7 === 0) {
             soma += numero;
         }
-
     }
 
     return soma;
 }
 
-const resultado = somarMultiplos();
-
-console.log(`A soma dos múltiplos de 5 ou 7 abaixo de 1000 é: ${resultado}`);
+module.exports = somarMultiplos;
