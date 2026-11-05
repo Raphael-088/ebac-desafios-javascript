@@ -4,8 +4,8 @@
   "description": "🚀 Desafios JavaScript - EBAC\r Projeto desenvolvido para resolução dos exercícios do módulo de JavaScript da EBAC.",
   "main": "desafio1-mdc.js",
   "scripts": {
-  "test": "jest"
-},
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Raphael-088/ebac-desafios-javascript.git"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Raphael-088/ebac-desafios-javascript#readme",
   "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
     "jest": "^30.5.2"
   }
 }
